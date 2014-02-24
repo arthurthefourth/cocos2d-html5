@@ -311,7 +311,7 @@
 
     var loaded = 0;
     var que = engine.concat(c.appFiles);
-    que.push('main.js');
+    que.push('/main.js');
 
 
     var loadHandlerIE = function (loaded){
